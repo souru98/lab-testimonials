@@ -1,4 +1,4 @@
-input[type=text],
+input[type="text"],
 select,
 textarea {
     width: 100%;
@@ -13,7 +13,7 @@ textarea {
 
 .container {
     border-radius: 5px;
-    background: ghostwhite;
+    background: rgb(239, 239, 243);
     padding-right: 13px;
     font-weight: bold;
     font-family: sans-serif;
@@ -21,13 +21,16 @@ textarea {
     padding-right: 8em;
     padding-left: 8em;
     padding-bottom: 2em;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 5em;
 }
 
 .form {
     padding-left: 13em;
     padding-right: 17em;
     padding-bottom: 5em;
-    border-radius: 15px 50px;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .button {
